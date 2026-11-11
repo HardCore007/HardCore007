@@ -73,3 +73,7 @@ My background, assessment approach, and credentials.
 **OSCP Exam Prep**  
 A public fork of penetration testing study material.  
 <a href="https://github.com/HardCore007/OSCP-Exam-Prep"><kbd>View repository ↗</kbd></a>
+
+## Contribution snake
+
+<a href="https://github.com/HardCore007#js-contribution-activity-description"><img src="./contribution-snake.svg" width="100%" alt="Animated snake eating squares from my GitHub contribution calendar, refreshed daily" /></a>
