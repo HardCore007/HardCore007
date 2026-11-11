@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 300" width="1160" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">Umar Mushtaq</title>
+  <desc id="desc">A dark terminal header for a security researcher and red team operator.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#101b16"/>
+      <stop offset=".58" stop-color="#0b1714"/>
+      <stop offset="1" stop-color="#102a23"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#6b9b81" stroke-opacity=".15"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1158" height="298" rx="17"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1160" height="300" fill="url(#background)"/>
+    <rect x="755" y="49" width="405" height="251" fill="url(#grid)"/>
+    <rect width="1160" height="49" fill="#0b1411"/>
+    <path d="M0 49.5H1160 M754.5 50V300" stroke="#344a3d"/>
+    <circle cx="33" cy="25" r="4" fill="#aafa79"/>
+    <circle cx="48" cy="25" r="4" fill="#537261"/>
+    <circle cx="63" cy="25" r="4" fill="#394e42"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+      <text x="83" y="31" font-size="16" fill="#b5c9ba">hardcore007 / whoami</text>
+      <text x="1127" y="31" font-size="15" text-anchor="end" fill="#b5c9ba">umarmushtaq.me</text>
+      <text x="47" y="111" font-size="17" font-weight="700" letter-spacing="3" fill="#aafa79">OFFENSIVE SECURITY</text>
+      <text x="49" y="241" font-size="21" fill="#c4d7cb">Security Researcher · Red Team Operator</text>
+    </g>
+    <text x="43" y="188" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-3" fill="#f2f5ec">Umar Mushtaq</text>
+
+    <g fill="none" stroke="#426f5b">
+      <circle cx="958" cy="175" r="102"/>
+      <circle cx="958" cy="175" r="70"/>
+      <circle cx="958" cy="175" r="36"/>
+      <path d="M838 175H1078 M958 55V295" stroke-opacity=".74"/>
+    </g>
+    <path d="M958 175L1037 110A102 102 0 0 1 1058 156Z" fill="#aafa79" fill-opacity=".10"/>
+    <path d="M958 175L1037 110" stroke="#aafa79" stroke-width="1.5"/>
+    <circle cx="1037" cy="110" r="5" fill="#aafa79"/>
+    <circle cx="958" cy="175" r="4" fill="#aafa79"/>
+    <circle cx="913" cy="216" r="3.5" fill="#7ba995"/>
+  </g>
+  <rect x="1" y="1" width="1158" height="298" rx="17" fill="none" stroke="#426050" stroke-width="2"/>
+</svg>
