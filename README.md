@@ -45,28 +45,23 @@ The World Health Organization recognized my PHP information disclosure report on
 **Also earned** · <kbd>PNPT</kbd> <kbd>CEH Practical (v12)</kbd> <kbd>eCPPT v2</kbd> <kbd>CNSP</kbd>  
 [See the full credential list ↗](https://umarmushtaq.me/#credentials)
 
-## What I test
+## Tools & platforms
 
-I lead penetration tests and red team engagements. I trace how individual weaknesses combine into an attack path, then give engineering and blue teams the evidence to reproduce it, fix it, and improve detection.
+| Where I use them | Tools |
+| :--- | :--- |
+| **Web & mobile testing** | <kbd>Burp Suite</kbd> <kbd>ZAP</kbd> <kbd>MobSF</kbd> <kbd>Frida</kbd> |
+| **Infrastructure assessment** | <kbd>Nessus</kbd> <kbd>OpenVAS</kbd> <kbd>Metasploit</kbd> |
+| **Active Directory & adversary emulation** | <kbd>BloodHound</kbd> <kbd>PingCastle</kbd> <kbd>Cobalt Strike</kbd> <kbd>Sliver</kbd> |
+| **Reverse engineering & scripting** | <kbd>Ghidra</kbd> <kbd>GDB</kbd> <kbd>Python</kbd> <kbd>PowerShell</kbd> <kbd>Bash</kbd> |
 
-<details>
-<summary><strong>Web, API &amp; mobile</strong> · Authentication, access control, and business logic</summary>
+**Practice labs** · Hack The Box Pro Labs · Zephyr, Dante, RastaLabs, and Cybernetics
 
-I test these controls manually and trace how sessions and permissions carry across an application and its APIs.
+## What I do
 
-</details>
-<details>
-<summary><strong>Infrastructure &amp; cloud</strong> · Internal and external assessments</summary>
-
-I follow identity and trust relationships to see how a foothold can move between systems.
-
-</details>
-<details>
-<summary><strong>Red team operations</strong> · Adversary emulation and Active Directory</summary>
-
-I test privilege escalation and lateral movement paths and work with defenders to validate what their controls detect.
-
-</details>
+- **Test web apps, APIs, and mobile apps.** I follow authentication, permissions, and business logic across the application and document how to reproduce findings.
+- **Assess infrastructure and cloud environments.** I map exposed services and trace how identity and trust relationships can turn an initial foothold into access to other systems.
+- **Lead red team engagements.** I emulate adversaries across Active Directory and work with defenders to validate which stages of an attack they can detect.
+- **Research and disclose vulnerabilities.** I use code review and reverse engineering to validate impact and give maintainers evidence they can act on.
 
 ## Selected work
 
