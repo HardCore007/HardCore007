@@ -76,4 +76,4 @@ A public fork of penetration testing study material.
 
 ## Contribution snake
 
-<a href="https://github.com/HardCore007#js-contribution-activity-description"><img src="./contribution-snake.svg" width="100%" alt="Animated snake eating squares from my GitHub contribution calendar, refreshed daily" /></a>
+<a href="https://github.com/HardCore007#js-contribution-activity-description"><img src="./contribution-snake.svg" width="100%" alt="Animated snake eating contribution squares and gold food pellets that respawn each round" /></a>
