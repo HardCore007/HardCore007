@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="120" viewBox="0 0 560 120" role="img" aria-labelledby="title">
+  <title id="title">Altered Security</title>
+  <style>
+    :root {
+      --accent: #d6b9fc; --icon: #332541; --surface: #1b1525;
+      --ink: #f5f6f0;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --accent: #65468e; --icon: #efe3fb; --surface: #faf5ff;
+        --ink: #1a2524;
+      }
+    }
+  </style>
+  <defs>
+    <linearGradient id="wash" x2="100%" y2="0%">
+      <stop stop-color="var(--icon)"/>
+      <stop offset=".55" stop-color="var(--surface)"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="558" height="118" rx="17" fill="url(#wash)" stroke="var(--accent)" stroke-opacity=".44" stroke-width="2"/>
+  <rect x="22" y="22" width="76" height="76" rx="14" fill="var(--icon)" stroke="var(--accent)" stroke-opacity=".45"/>
+  <g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M59 45v11m0 0H43v12m16-12h18v12"/>
+      <rect x="52" y="32" width="14" height="14" rx="3"/>
+      <rect x="36" y="68" width="14" height="14" rx="3"/>
+      <rect x="70" y="68" width="14" height="14" rx="3"/>
+  </g>
+  <text x="120" y="48" font-family="ui-monospace, Consolas, monospace" font-size="20" font-weight="700" letter-spacing="1.4" fill="var(--accent)">ACTIVE DIRECTORY</text>
+  <text x="117" y="87" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="-1" fill="var(--ink)">Altered Security</text>
+  <g fill="var(--accent)" opacity=".5">
+    <circle cx="510" cy="30" r="2.5"/>
+    <circle cx="521" cy="30" r="2.5"/>
+    <circle cx="532" cy="30" r="2.5"/>
+  </g>
+</svg>

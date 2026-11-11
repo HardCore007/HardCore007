@@ -4,6 +4,7 @@
 
 <a href="https://umarmushtaq.me/"><kbd>Portfolio ↗</kbd></a>
 &nbsp; <a href="https://www.linkedin.com/in/umarmushtaq2/"><kbd>LinkedIn ↗</kbd></a>
+&nbsp; <a href="https://github.com/HardCore007#certifications"><kbd>Certifications ↓</kbd></a>
 &nbsp; <a href="https://github.com/HardCore007#js-contribution-activity-description"><kbd>GitHub activity ↓</kbd></a>
 
 ## 🏆 Achievements
@@ -12,16 +13,37 @@
 
 The World Health Organization recognized my PHP information disclosure report on **5 August 2024**. [View the official listing ↗](https://www.who.int/about/cybersecurity/vulnerability-hall-of-fame/ethical-hacker-list#:~:text=Umar%20Mushtaq)
 
-### 🎓 Certifications
+### Certifications
 
-| Issuer | Credentials |
-| :--- | :--- |
-| **OffSec** | **OSCP** · OffSec Certified Professional |
-| **Zero-Point Security** | **CRTL** · Red Team Lead (Red Team Ops II)<br>**CRTO** · Certified Red Team Operator |
-| **Hack The Box** | **CPTS** · Certified Penetration Testing Specialist<br>**CBBH** · Certified Bug Bounty Hunter<br>**CDSA** · Certified Defensive Security Analyst |
-| **Altered Security** | **CRTE** · Certified Red Team Expert<br>**CRTP** · Certified Red Team Professional |
+<table role="presentation" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./cert-offsec.svg" width="100%" alt="OffSec · Penetration testing" />
+      <br /><kbd>OSCP</kbd> OffSec Certified Professional
+    </td>
+    <td width="50%" valign="top">
+      <img src="./cert-zero-point.svg" width="100%" alt="Zero-Point Security · Adversary emulation" />
+      <br /><kbd>CRTL</kbd> Red Team Lead (Red Team Ops II)
+      <br /><kbd>CRTO</kbd> Certified Red Team Operator
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./cert-hack-the-box.svg" width="100%" alt="Hack The Box · Offense and defense" />
+      <br /><kbd>CPTS</kbd> Certified Penetration Testing Specialist
+      <br /><kbd>CBBH</kbd> Certified Bug Bounty Hunter
+      <br /><kbd>CDSA</kbd> Certified Defensive Security Analyst
+    </td>
+    <td width="50%" valign="top">
+      <img src="./cert-altered.svg" width="100%" alt="Altered Security · Active Directory" />
+      <br /><kbd>CRTE</kbd> Certified Red Team Expert
+      <br /><kbd>CRTP</kbd> Certified Red Team Professional
+    </td>
+  </tr>
+</table>
 
-**Also earned** · PNPT · CEH Practical (v12) · eCPPT v2 · CNSP. [See the full credential list ↗](https://umarmushtaq.me/#credentials)
+**Also earned** · <kbd>PNPT</kbd> <kbd>CEH Practical (v12)</kbd> <kbd>eCPPT v2</kbd> <kbd>CNSP</kbd>  
+[See the full credential list ↗](https://umarmushtaq.me/#credentials)
 
 ## What I test
 
@@ -48,5 +70,11 @@ I test privilege escalation and lateral movement paths and work with defenders t
 
 ## Selected work
 
-- **[Personal portfolio](https://umarmushtaq.me/)** · My background, assessment approach, and credentials. [Earlier portfolio code](https://github.com/HardCore007/my-portfolio)
-- **[OSCP Exam Prep](https://github.com/HardCore007/OSCP-Exam-Prep)** · A public fork of penetration testing study material.
+**Personal portfolio**  
+My background, assessment approach, and credentials.  
+<a href="https://umarmushtaq.me/"><kbd>Open portfolio ↗</kbd></a>
+&nbsp; <a href="https://github.com/HardCore007/my-portfolio"><kbd>Earlier portfolio code ↗</kbd></a>
+
+**OSCP Exam Prep**  
+A public fork of penetration testing study material.  
+<a href="https://github.com/HardCore007/OSCP-Exam-Prep"><kbd>View repository ↗</kbd></a>
