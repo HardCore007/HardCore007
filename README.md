@@ -1,17 +1,33 @@
 <img src="./profile-banner.svg" width="100%" alt="Umar Mushtaq · Security Researcher and Red Team Operator" />
 
-**Senior Cybersecurity Specialist** · Abu Dhabi, UAE  
-[Portfolio](https://umarmushtaq.me/) · [LinkedIn](https://www.linkedin.com/in/umarmushtaq2/)
+**Senior Cybersecurity Specialist** · Abu Dhabi, UAE
 
-I lead penetration tests and red team engagements. My work is to show how individual weaknesses combine into a real attack path, then give engineering and blue teams enough evidence to reproduce it, fix it, and improve detection.
+<a href="https://umarmushtaq.me/"><kbd>Portfolio ↗</kbd></a>
+&nbsp; <a href="https://www.linkedin.com/in/umarmushtaq2/"><kbd>LinkedIn ↗</kbd></a>
+&nbsp; <a href="https://github.com/HardCore007#js-contribution-activity-description"><kbd>GitHub activity ↓</kbd></a>
+
+I lead penetration tests and red team engagements. I trace how individual weaknesses combine into an attack path, then give engineering and blue teams the evidence to reproduce it, fix it, and improve detection.
 
 ## What I test
 
-| Area | Focus |
-| :--- | :--- |
-| **Web, API & mobile** | Authentication, access control, business logic, and manual application testing |
-| **Infrastructure & cloud** | Internal and external assessments, with attention to identity and trust boundaries |
-| **Red team operations** | Adversary emulation, Active Directory attack paths, and detection validation |
+<details>
+<summary><strong>Web, API &amp; mobile</strong> · Authentication, access control, and business logic</summary>
+
+I test these controls manually and trace how sessions and permissions carry across an application and its APIs.
+
+</details>
+<details>
+<summary><strong>Infrastructure &amp; cloud</strong> · Internal and external assessments</summary>
+
+I follow identity and trust relationships to see how a foothold can move between systems.
+
+</details>
+<details>
+<summary><strong>Red team operations</strong> · Adversary emulation and Active Directory</summary>
+
+I test privilege escalation and lateral movement paths and work with defenders to validate what their controls detect.
+
+</details>
 
 ## Selected work
 
@@ -20,9 +36,19 @@ I lead penetration tests and red team engagements. My work is to show how indivi
 
 ## Credentials & recognition
 
+> **2024 · WHO Vulnerability Hall of Fame**  
+> Recognized for responsible disclosure. [View the WHO listing ↗](https://www.who.int/about/cybersecurity/vulnerability-hall-of-fame/ethical-hacker-list)
+
+`OSCP` · `CRTO` · `CRTL` · `CPTS` · `CBBH` · `CDSA` · `CRTE` · `CRTP`
+
+<details>
+<summary><strong>Certification issuers and training</strong></summary>
+
 **OffSec** · OSCP  
 **Zero-Point Security** · CRTO, CRTL (Red Team Ops II)  
 **Hack The Box** · CPTS, CBBH, CDSA  
 **Altered Security** · CRTE, CRTP
 
-Recognized in the **[WHO Vulnerability Hall of Fame](https://www.who.int/about/cybersecurity/vulnerability-hall-of-fame/ethical-hacker-list)** in 2024 for responsible disclosure. [See all credentials](https://umarmushtaq.me/#credentials).
+[See all credentials ↗](https://umarmushtaq.me/#credentials)
+
+</details>
