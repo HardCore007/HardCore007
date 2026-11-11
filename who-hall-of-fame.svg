@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="158" viewBox="0 0 1120 158" role="img" aria-labelledby="title">
+  <title id="title">WHO Vulnerability Hall of Fame, August 2024</title>
+  <style>
+    :root {
+      --surface: #131c17;
+      --highlight: #322a1b;
+      --border: #786341;
+      --ink: #faf3e1;
+      --accent: #f4ca7b;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --surface: #fff8e9;
+        --highlight: #f2e2bf;
+        --border: #a18656;
+        --ink: #2f2719;
+        --accent: #765118;
+      }
+    }
+  </style>
+  <defs>
+    <linearGradient id="panel" x2="100%" y2="0%">
+      <stop stop-color="var(--highlight)"/>
+      <stop offset=".4" stop-color="var(--surface)"/>
+      <stop offset="1" stop-color="var(--surface)"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1118" height="156" rx="21" fill="url(#panel)" stroke="var(--border)" stroke-width="2"/>
+
+  <g fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="79" cy="79" r="42" stroke="var(--border)"/>
+    <path d="M67 88l-6 21 18-9 18 9-6-21"/>
+    <path d="M79 49l7 5 9 1 3 8 5 7-3 8-1 9-8 4-6 6-9-2-9 1-5-7-7-5 1-9-1-9 7-5 5-7 9 1z" fill="var(--highlight)"/>
+    <path d="M79 61l4 8 9 1-6 6 1 9-8-4-8 4 1-9-6-6 9-1z" fill="var(--accent)" stroke="none"/>
+  </g>
+  <path d="M143 32v94" stroke="var(--border)" stroke-opacity=".8"/>
+
+  <text x="171" y="60" font-family="ui-monospace, Consolas, monospace" font-size="21" letter-spacing="2" font-weight="700" fill="var(--accent)">RESPONSIBLE DISCLOSURE · AUG 2024</text>
+  <text x="169" y="110" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700" letter-spacing="-1" fill="var(--ink)">WHO Vulnerability Hall of Fame</text>
+
+  <circle cx="1051" cy="79" r="25" fill="none" stroke="var(--border)"/>
+  <path d="M1042 88l18-18m-15 0h15v15" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
