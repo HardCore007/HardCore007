@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="356" viewBox="0 0 1120 356" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="432" viewBox="0 0 1120 432" role="img" aria-labelledby="title desc">
   <title id="title">Umar Mushtaq</title>
-  <desc id="desc">Security Researcher and Red Team Operator. A terminal panel with a decorative radar sweep.</desc>
+  <desc id="desc">Security Researcher and Red Team Operator. A radar sweeps as a terminal types, erases, and retypes security assessment phrases.</desc>
 
   <style>
     :root {
@@ -30,11 +30,22 @@
     .mono { font-family: ui-monospace, 'SFMono-Regular', Consolas, monospace; }
     .sweep { transform-origin: 912px 198px; transform: rotate(-35deg); }
     .echo { transform-box: fill-box; transform-origin: center; opacity: .44; }
+    .typing { display: none; }
+    .phrase-scope { --letters: 22; --advance: 286px; --delay: 0s; }
+    .phrase-trace { --letters: 21; --advance: 273px; --delay: -10s; }
+    .phrase-validate { --letters: 16; --advance: 208px; --delay: -5s; }
 
     @media (prefers-reduced-motion: no-preference) {
       .sweep { animation: scan 9s linear infinite; }
       .echo { animation: ping 4.5s ease-out infinite; }
       .echo-delayed { animation-delay: -2.25s; }
+      .typing { display: inline; }
+      .typing-static { display: none; }
+      .typing-mask { animation: reveal 15s var(--delay) linear infinite; }
+      .typing-cursor {
+        animation: cursor-position 15s var(--delay) linear infinite,
+                   cursor-visibility 15s var(--delay) step-end infinite;
+      }
     }
 
     @keyframes scan { to { transform: rotate(325deg); } }
@@ -42,10 +53,29 @@
       0%, 18% { opacity: .65; transform: scale(.5); }
       65%, 100% { opacity: 0; transform: scale(1.65); }
     }
+    @keyframes reveal {
+      0% { width: 0; animation-timing-function: steps(var(--letters)); }
+      13%, 24% { width: var(--advance); }
+      24% { animation-timing-function: steps(var(--letters)); }
+      32%, 100% { width: 0; }
+    }
+    @keyframes cursor-position {
+      0% { transform: translateX(0); animation-timing-function: steps(var(--letters)); }
+      13%, 24% { transform: translateX(var(--advance)); }
+      24% { animation-timing-function: steps(var(--letters)); }
+      32%, 100% { transform: translateX(0); }
+    }
+    @keyframes cursor-visibility {
+      0%, 17%, 22%, 31% { opacity: 1; }
+      15%, 20%, 33.333333%, 100% { opacity: 0; }
+    }
   </style>
 
   <defs>
-    <clipPath id="frame"><rect x="1" y="1" width="1118" height="354" rx="23"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1118" height="430" rx="23"/></clipPath>
+    <clipPath id="type-scope"><rect class="typing-mask phrase-scope" x="76" y="375" width="0" height="40"/></clipPath>
+    <clipPath id="type-trace"><rect class="typing-mask phrase-trace" x="76" y="375" width="0" height="40"/></clipPath>
+    <clipPath id="type-validate"><rect class="typing-mask phrase-validate" x="76" y="375" width="0" height="40"/></clipPath>
     <radialGradient id="glow" cx="83%" cy="56%" r="62%">
       <stop stop-color="var(--field)"/>
       <stop offset="1" stop-color="var(--surface)"/>
@@ -60,7 +90,7 @@
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1120" height="356" fill="var(--surface)"/>
+    <rect width="1120" height="432" fill="var(--surface)"/>
     <rect x="600" y="52" width="520" height="304" fill="url(#glow)"/>
     <rect x="703" y="52" width="417" height="304" fill="url(#grid)"/>
     <rect width="1120" height="52" fill="var(--chrome)"/>
@@ -110,6 +140,21 @@
     <circle cx="966" cy="151" r="4" fill="var(--echo)"/>
     <circle cx="864" cy="244" r="3.5" fill="var(--echo)"/>
     <circle cx="912" cy="198" r="4" fill="var(--accent)"/>
+
+    <rect x="0" y="356" width="1120" height="76" fill="var(--chrome)"/>
+    <path d="M0 356H1120" stroke="var(--border)"/>
+    <g class="mono" font-size="22">
+      <text x="44" y="403" fill="var(--accent)">❯</text>
+      <text class="typing-static" x="76" y="403" fill="var(--ink)">map the attack surface</text>
+      <g class="typing" fill="var(--ink)">
+        <text x="76" y="403" textLength="285" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-scope)">map the attack surface</text>
+        <text x="76" y="403" textLength="272" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-trace)">trace the attack path</text>
+        <text x="76" y="403" textLength="207" lengthAdjust="spacingAndGlyphs" clip-path="url(#type-validate)">validate the fix</text>
+        <rect class="typing-cursor phrase-scope" x="76" y="385" width="3" height="21" rx="1" fill="var(--accent)"/>
+        <rect class="typing-cursor phrase-trace" x="76" y="385" width="3" height="21" rx="1" fill="var(--accent)"/>
+        <rect class="typing-cursor phrase-validate" x="76" y="385" width="3" height="21" rx="1" fill="var(--accent)"/>
+      </g>
+    </g>
   </g>
-  <rect x="1" y="1" width="1118" height="354" rx="23" fill="none" stroke="var(--border)" stroke-width="2"/>
+  <rect x="1" y="1" width="1118" height="430" rx="23" fill="none" stroke="var(--border)" stroke-width="2"/>
 </svg>
