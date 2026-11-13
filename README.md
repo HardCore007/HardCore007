@@ -1,4 +1,4 @@
-<img src="https://github.com/HardCore007/HardCore007/raw/refs/heads/main/profile-banner.svg" width="100%" alt="Umar Mushtaq · Security Researcher and Red Team Operator · Animated terminal and radar" />
+<img src="./profile-banner-typing.svg" width="100%" alt="Umar Mushtaq · Security Researcher and Red Team Operator · Web and API, Active Directory, and adversary emulation" />
 
 **Senior Cybersecurity Specialist** · Abu Dhabi, UAE
 
